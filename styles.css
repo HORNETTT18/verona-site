@@ -878,6 +878,27 @@ p {
 }
 
 @media (max-width: 560px) {
+   .hero__photo {
+  order: 2;
+}
+
+.hero__content {
+  order: 1;
+  text-align: center;
+}
+
+.hero__photo-wrap {
+  height: 260px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.hero__photo-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
   .hero__actions { flex-direction: column; align-items: stretch; }
   .btn { justify-content: center; }
 
