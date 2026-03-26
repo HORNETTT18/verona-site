@@ -901,10 +901,16 @@ p {
      .hero {
     padding-bottom: 0 !important;
   }
+   .hero {
+  background: transparent !important;
+}
 
   .hero__photo-wrap {
     margin-bottom: 0 !important;
   }
+   .hero__photo {
+  margin-bottom: -30px !important;
+}
 
   .hero__content {
     margin-top: 0 !important;
