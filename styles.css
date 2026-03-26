@@ -879,16 +879,15 @@ p {
 
 @media (max-width: 560px) {
    .hero__photo {
-  order: 2;
+  order: 1;
 }
 
 .hero__content {
-  order: 1;
-  text-align: center;
+  order: 2;
 }
 
 .hero__photo-wrap {
-  height: 260px;
+  height: 240px;
   overflow: hidden;
   border-radius: 20px;
 }
@@ -897,7 +896,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 20%;
 }
   .hero__actions { flex-direction: column; align-items: stretch; }
   .btn { justify-content: center; }
